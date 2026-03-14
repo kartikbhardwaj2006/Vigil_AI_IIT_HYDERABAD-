@@ -74,7 +74,6 @@ export default function ManufacturingDashboard() {
   const [error, setError] = useState("");
   const [dark, setDark] = useState(true);
 
-  // Apply theme to <html> element so CSS vars cascade everywhere
   useEffect(() => {
     document.documentElement.setAttribute(
       "data-theme",
